@@ -5,9 +5,7 @@ function FriendCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
-        <span onClick={() => props.removeFriend(props.id)} className="remove">
-        </span>
+        <img className="pointer" alt={props.name} src={props.image} onClick={() => props.selectedFriend(props.id)}/>
       </div>
     </div>
   );

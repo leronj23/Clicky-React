@@ -17,6 +17,9 @@
   vertical-align: middle;
 }
 .card > .img-container > img {
-  margin-top: 15%;
-  width: 60%
+  width: 100%
+}
+
+.pointer {
+  cursor: pointer;
 }
