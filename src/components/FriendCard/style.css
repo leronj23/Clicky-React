@@ -1,25 +1,31 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 250px;
+  height: 150px;
   margin: 1rem;
   position: relative;
-  width: 250px;
+  width: 150px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 }
 
-.card > .img-container {
+.card>.img-container {
   height: 100%;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
+  background: #6CADDC;
   vertical-align: middle;
+  transition: transform .1s;
 }
-.card > .img-container > img {
+
+.card>.img-container>img {
   width: 100%
 }
 
 .pointer {
   cursor: pointer;
+}
+
+.img-container:hover {
+  transform: scale(1.1);
 }

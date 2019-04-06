@@ -26,8 +26,6 @@ class App extends Component {
   // Trigger when friend is selected
   selectedFriend = id => {
 
-    document.getElementById('shakerBox').className = 'shakeFriends';
-
     // Add previously selected ids to the selected array and shuffle the friendsList
     this.setState({
       selected: this.state.selected.concat(id),
@@ -67,6 +65,13 @@ class App extends Component {
         selected: [],
         status: 'You guessed incorrectly! Try again...'
       });
+
+      // Make game shake everytime some lose
+      var element = document.getElementById("shakerBox");
+      element.classList.remove("shakeFriends");
+      void element.offsetWidth;
+      element.classList.add("shakeFriends");
+
     }
   };
 
