@@ -1,8 +1,10 @@
 # Clicky-React
 
-Mongo Scraper is a web applications that scrapes the New York Times Sports sections of their website. The app was made primarily using mongoose, mongoDB and Cheerio technologies.
+Use your memory skills with random characters you grew up to love.
 
-When a user runs the app, all of the article headlines, the links, photo, and the article snippet will be scraped from New York Times' website.
+Click on each character one by one to wi the game. If you click the same character twice, the game is over.
+
+All this brought to you by React. I hope like and enjoy...
 
 # Deployed URL
 https://leronj23.github.io/Clicky-React/
