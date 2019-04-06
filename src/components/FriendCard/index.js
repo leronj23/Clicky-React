@@ -5,7 +5,7 @@ function FriendCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img className="pointer" alt={props.name} src={props.image} onClick={() => props.selectedFriend(props.id)}/>
+        <img className="pointer" alt={props.name} src={process.env.PUBLIC_URL +props.image} onClick={() => props.selectedFriend(props.id)}/>
       </div>
     </div>
   );
