@@ -7,7 +7,7 @@ When a user runs the app, all of the article headlines, the links, photo, and th
 # Deployed URL
 https://leronj23.github.io/Clicky-React/
 
-![Mongo-Scraper](https://github.com/leronj23/Mongo-Scraper/blob/master/screenshot/mongo-scraper.jpg)
+![Mongo-Scraper](https://github.com/leronj23/Clicky-React/blob/master/screenshot/clicky-screenshot.jpg)
 
 # Technology used
 * Javascript
