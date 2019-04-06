@@ -7,15 +7,10 @@ When a user runs the app, all of the article headlines, the links, photo, and th
 # Deployed URL
 https://leronj23.github.io/Clicky-React/
 
-![Mongo-Scraper](https://github.com/leronj23/Clicky-React/blob/master/screenshot/clicky-screenshot.jpg)
+![Clicky-Game](https://github.com/leronj23/Clicky-React/blob/master/screenshot/clicky-screenshot.jpg)
 
 # Technology used
 * Javascript
-* Express.js
-* Node.js
+* React
 * NPM
-* Heroku
-* MongoDB
-* Mongoose
-* Cheerio
-* Axios
+* JSX
