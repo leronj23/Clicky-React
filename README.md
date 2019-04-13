@@ -14,5 +14,6 @@ https://leronj23.github.io/Clicky-React/
 # Technology used
 * Javascript
 * React
+* Bootstrap
 * NPM
 * JSX
